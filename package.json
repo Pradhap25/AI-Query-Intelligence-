@@ -1,0 +1,32 @@
+{
+  "name": "ai-query-intelligence",
+  "version": "1.0.0",
+  "description": "Production-quality Chrome/Edge extension that reconstructs broken, messy, or incomplete queries into natural, precise, AI-ready requests before sending them to an AI.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "package": "node scripts/package.mjs"
+  },
+  "keywords": [
+    "chrome-extension",
+    "edge-extension",
+    "manifest-v3",
+    "ai-query",
+    "ollama",
+    "qwen",
+    "llm",
+    "query-intelligence"
+  ],
+  "author": "Google Antigravity Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/chrome": "^0.0.280",
+    "@types/node": "^22.7.5",
+    "esbuild": "^0.24.0",
+    "jsdom": "^27.0.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.2"
+  }
+}

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build outputs & distribution
+dist/
+*.zip
+
+# Test & coverage
+coverage/
+.nyc_output/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & local files
+.env
+.env.local
